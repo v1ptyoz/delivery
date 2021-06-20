@@ -1,0 +1,40 @@
+.cards__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 40px;
+    row-gap: 42px;
+    margin-bottom: 86px;
+}
+
+.cards__loader {
+    margin: 0 auto;
+}
+
+.cards__link {
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    background: url("../../img/more.svg"), linear-gradient(287.74deg, #F58656 8.52%, #FE5626 92.72%);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 4px 8px rgba(205, 169, 41, 0.26);
+    border-radius: 50%;
+}
+
+.cards__link:hover {
+    background: url("../../img/more.svg"), #59AAF1;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: more 1s linear infinite forwards;
+}
+
+@keyframes more {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

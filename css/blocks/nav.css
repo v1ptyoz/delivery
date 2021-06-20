@@ -1,0 +1,17 @@
+.nav {
+    justify-self: start;
+    align-self: center;
+    margin-top: 20px;
+}
+
+.nav__list {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px
+}
+
+.nav__link {
+    font-size: 18px;
+    line-height: 1.42;
+    color: #000;
+}

@@ -1,0 +1,25 @@
+.hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    margin-top: 105px;
+    position: relative;
+}
+
+.hero__text {
+    padding: 18px 270px;
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+.hero__pizza {
+    max-width: 996px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    left: 30px;
+}

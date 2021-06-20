@@ -1,0 +1,9 @@
+.logo {
+    display: inline-grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.logo__img {
+    align-self: start;
+}

@@ -1,0 +1,12 @@
+.header {
+    background: url("../../img/header_bg.png") center no-repeat, linear-gradient(180deg, rgba(240, 245, 251, 1) 0%, rgba(240, 245, 251, 1) 90%, rgba(255, 255, 255, 1) 90%, rgba(255, 255, 255, 1) 100%);
+    background-size: contain;
+}
+
+.header__container {
+    display: grid;
+    grid-template-columns: 5fr 2fr 5fr;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}

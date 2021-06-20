@@ -1,0 +1,8 @@
+.menu {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, min-content);
+    row-gap: 50px;
+    justify-items: center;
+    margin-bottom: 100px;
+}

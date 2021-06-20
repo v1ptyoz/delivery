@@ -1,0 +1,18 @@
+.footer {
+    top: -50px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    margin: 0 auto;
+}
+
+.footer__author {
+    justify-self: end;
+}

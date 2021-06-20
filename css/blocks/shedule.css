@@ -1,0 +1,25 @@
+.shedule {
+    align-self: center;
+    justify-self: end;
+}
+
+.shedule p {
+    padding: 0;
+    margin: 0;
+}
+
+.shedule__text--opened::before,
+.shedule__text--closed::before {
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #46CB72;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+.shedule__text--closed::before {
+    background-color: rgb(236, 16, 16);
+}

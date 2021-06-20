@@ -1,0 +1,9 @@
+.section__title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.section__title--more-text {
+    padding: 0 330px;
+}
