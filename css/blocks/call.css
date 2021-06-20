@@ -1,14 +1,14 @@
 .call {
     padding-top: 82px;
-    padding-bottom: 300px;
+    padding-bottom: 450px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 2fr;
     justify-items: center;
     align-items: center;
     align-content: center;
-    background: url("../../img/call_bg.png") center bottom, linear-gradient( 180deg, rgba(240, 245, 251, 1) 0%, rgba(240, 245, 251, 1) 87%, rgba(255, 255, 255, 1) 87%, rgba(255, 255, 255, 1) 100%);
-    background-size: contain;
+    background: url("../../img/call_bg.png") center bottom -20px, linear-gradient( 180deg, rgba(240, 245, 251, 1) 0%, rgba(240, 245, 251, 1) 87%, rgba(255, 255, 255, 1) 87%, rgba(255, 255, 255, 1) 100%);
+    background-size: cover;
     background-repeat: no-repeat;
 }
 

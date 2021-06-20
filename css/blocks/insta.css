@@ -1,6 +1,7 @@
 .insta {
     min-height: 230px;
     background: url("../../img/insta.jpg") center no-repeat;
+    background-size: cover;
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
